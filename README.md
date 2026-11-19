@@ -31,3 +31,6 @@ Open `index.html` locally in a browser or serve from any static HTTP server such
 
 ## Design refresh
 The updated design uses a separate `style.css`, a pastel indigo/mint/coral palette, frosted glass effects, colorful illustrated SVG assets, and a mobile-optimized layout. All artwork ships in `assets/` and loads without external image requests. Email reminders are not included.
+
+## Photos and licensing
+The enhanced high-contrast design loads photographs from Unsplash over the internet; the app itself remains local-first. Please review the Unsplash license (https://unsplash.com/license). No Adobe Stock watermarked previews or unlicensed Adobe Stock assets were used. You can replace photo URLs with locally hosted licensed assets for offline imagery.
