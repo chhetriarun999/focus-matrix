@@ -14,7 +14,7 @@ A responsive, local-first Eisenhower Matrix productivity website optimized for i
 
 ## GitHub Pages publishing
 1. Create a **public** repository named `focus-matrix` on GitHub.
-2. Upload `index.html` and `README.md` to the **root** of the repository (or `git init`, `git add .`, `git commit -m "Initial Focus Matrix website"`, `git branch -M main`, `git remote add origin https://github.com/YOUR_USERNAME/focus-matrix.git`, `git push -u origin main`).
+2. Upload `index.html`, `style.css`, `app.js`, the `assets/` folder, and `README.md` to the **root** of the repository (or `git init`, `git add .`, `git commit -m "Initial Focus Matrix website"`, `git branch -M main`, `git remote add origin https://github.com/YOUR_USERNAME/focus-matrix.git`, `git push -u origin main`).
 3. Open repository **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, branch `main`, folder `/ (root)`, Save.
 4. Your site will normally be available at `https://YOUR_USERNAME.github.io/focus-matrix/` when Pages finishes deploying.
 5. On iPhone, open the site in Safari, then Share → Add to Home Screen.
@@ -28,3 +28,6 @@ A responsive, local-first Eisenhower Matrix productivity website optimized for i
 
 ## Development
 Open `index.html` locally in a browser or serve from any static HTTP server such as `python -m http.server 8000`. `crypto.subtle` requires a secure context: GitHub Pages HTTPS or localhost work.
+
+## Design refresh
+The updated design uses a separate `style.css`, a pastel indigo/mint/coral palette, frosted glass effects, colorful illustrated SVG assets, and a mobile-optimized layout. All artwork ships in `assets/` and loads without external image requests. Email reminders are not included.
